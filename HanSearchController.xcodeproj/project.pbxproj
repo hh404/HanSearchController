@@ -14,6 +14,9 @@
 		3AAE9D052090860F00420D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAE9D032090860F00420D71 /* LaunchScreen.storyboard */; };
 		3AAE9D102090860F00420D71 /* HanSearchControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE9D0F2090860F00420D71 /* HanSearchControllerTests.swift */; };
 		3AAE9D1B2090860F00420D71 /* HanSearchControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE9D1A2090860F00420D71 /* HanSearchControllerUITests.swift */; };
+		3AAE9D2920908ACB00420D71 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE9D2820908ACB00420D71 /* SearchViewController.swift */; };
+		3AB37D7120908C3A009F5599 /* ResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB37D6F20908C39009F5599 /* ResultsTableController.swift */; };
+		3AB37D7220908C3A009F5599 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB37D7020908C3A009F5599 /* BaseTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3AAE9D162090860F00420D71 /* HanSearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanSearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAE9D1A2090860F00420D71 /* HanSearchControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanSearchControllerUITests.swift; sourceTree = "<group>"; };
 		3AAE9D1C2090860F00420D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAE9D2820908ACB00420D71 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3AB37D6F20908C39009F5599 /* ResultsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableController.swift; sourceTree = "<group>"; };
+		3AB37D7020908C3A009F5599 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		3AAE9CF92090860F00420D71 /* HanSearchController */ = {
 			isa = PBXGroup;
 			children = (
+				3AB37D7020908C3A009F5599 /* BaseTableViewController.swift */,
+				3AB37D6F20908C39009F5599 /* ResultsTableController.swift */,
 				3AAE9CFA2090860F00420D71 /* AppDelegate.swift */,
 				3AAE9CFC2090860F00420D71 /* ViewController.swift */,
 				3AAE9CFE2090860F00420D71 /* Main.storyboard */,
 				3AAE9D012090860F00420D71 /* Assets.xcassets */,
 				3AAE9D032090860F00420D71 /* LaunchScreen.storyboard */,
 				3AAE9D062090860F00420D71 /* Info.plist */,
+				3AAE9D2820908ACB00420D71 /* SearchViewController.swift */,
 			);
 			path = HanSearchController;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAE9D2920908ACB00420D71 /* SearchViewController.swift in Sources */,
+				3AB37D7120908C3A009F5599 /* ResultsTableController.swift in Sources */,
+				3AB37D7220908C3A009F5599 /* BaseTableViewController.swift in Sources */,
 				3AAE9CFD2090860F00420D71 /* ViewController.swift in Sources */,
 				3AAE9CFB2090860F00420D71 /* AppDelegate.swift in Sources */,
 			);
